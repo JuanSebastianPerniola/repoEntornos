@@ -7,7 +7,9 @@ public class App {
     public String getGreeting() {
         return "Hello World!";
     }
-
+    public int sumar(int sum1, int sum2){
+        return sum1 + sum2;
+    }
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
     }
