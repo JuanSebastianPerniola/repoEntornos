@@ -16,6 +16,10 @@ class AppTest {
         App classUnderTest = new App();
         assertEquals(5, classUnderTest.sumar(3,2));
     }
+    @Test void resatPrueba() {
+        App classUnderTest = new App();
+        assertEquals(1, classUnderTest.sumar(3,2));
+    }
 }
 
 //feat or fix 
