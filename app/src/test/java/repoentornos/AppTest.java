@@ -14,6 +14,14 @@ class AppTest {
 
     @Test void sumaPrueba() {
         App classUnderTest = new App();
-        assertEquals(6, classUnderTest.sumar(3,2));
+        assertEquals(5, classUnderTest.sumar(3,2));
     }
 }
+
+//feat or fix 
+//origin feat/sumar
+
+//nos hemos saltado una cosa, creado un repsotiroio, un project inicial, hemos arreaglado permismos en la main
+//hemos hecho un cambio para que no se toque la main, creamos  con cehckout -b feat/loque hacemos 
+//y ahora un git status 
+//git pull request 
