@@ -14,6 +14,9 @@ class AppTest {
 
     @Test void sumaPrueba() {
         App classUnderTest = new App();
-        assertEquals(6, classUnderTest.sumar(3,2));
+        assertEquals(7, classUnderTest.sumar(3,2));
     }
 }
+
+//feat or fix 
+//origin feat/sumar
